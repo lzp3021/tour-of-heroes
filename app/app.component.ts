@@ -1,7 +1,13 @@
-import { Component } from '@angular/core';
-
+/**
+ * Created by Administrator on 2016/12/1.
+ */
+import {Component} from "@angular/core";
 @Component({
+  moduleId:module.id,
   selector: 'my-app',
-  template: `<h1>Hello {{name}}</h1>`,
+  templateUrl:'app.html',
+  styleUrls:['app.css']
 })
-export class AppComponent  { name = 'Angular'; }
+export class AppComponent {
+  title = 'Tour of Heroes'
+}
